@@ -24,18 +24,35 @@ a{
 .main{
     display: flex;
     flex-direction: row;   
-    
     height: 100vh;
     transition: .3s all ease;
     /* background-color: #E0FFFF; */
     align-items: center;
     justify-content: center;
     gap: 20px;
-    
 }
 
 .name{
     padding: 10px;
     height: 300px;
+    width: 100vh;
     border: solid;
+    background: linear-gradient( blue, black);
+    border-radius: 30px;
+    color: #fff;
+    flex-direction: column;
+    display: flex;
+}
+
+.text-main{
+    height: 30px;
+    width: 190px;
+    border: solid;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.text-question{
+    margin-bottom: 10px;
 }
