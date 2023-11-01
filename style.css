@@ -22,8 +22,8 @@ a{
 }
 
 .main{
-    display: flex;
-    flex-direction: row;   
+    flex-direction:column;
+    flex-wrap: nowrap;
     height: 100vh;
     transition: .3s all ease;
     /* background-color: #E0FFFF; */
