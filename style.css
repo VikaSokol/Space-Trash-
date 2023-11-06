@@ -27,14 +27,14 @@ a{
     flex-direction: column;   
     height: 100vh;
     /* background-color: #E0FFFF; */
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
     gap: 20px;
+    justify-content: flex-start;
 }
 
-.name{
+.name-1{
     padding: 10px;
-    height: 40vh;
+    height: 150px;
     width: 200vh;
     border: solid;
     background: linear-gradient( blue, black);
@@ -68,18 +68,23 @@ a{
 }
 
 .story{
-    display: flex;
     flex-direction: column;
-    padding: 10px;
-    height: 100vh;
-    width: 140vh;
     border: solid;
     background: linear-gradient( white, rgb(41, 72, 78));
     border-radius: 30px;
     color: black;
     display: flex;
+    width: 1000px;
+    height: 800px;
 }
 
 .linear{
     padding-left: 20px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-right: 120px;
 }
