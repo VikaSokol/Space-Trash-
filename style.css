@@ -24,12 +24,13 @@ a{
 
 .main{
     display: flex;
-    flex-direction: column;   
+    flex-direction:column;
+    flex-wrap:nowrap;
     height: 100vh;
     /* background-color: #E0FFFF; */
     align-items: flex-end;
-    gap: 20px;
-    justify-content: flex-start;
+    gap:20px;
+    justify-content:flex-start;
 }
 
 .name-1{
