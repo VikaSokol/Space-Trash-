@@ -27,7 +27,7 @@ height: 100px;
     flex-wrap:nowrap;
     height: 100vh;
     /* background-color: #E0FFFF; */
-    align-items: flex-end;
+    align-items: center;
     gap:20px;
     justify-content:flex-start;
 }
@@ -37,18 +37,19 @@ height: 100px;
     height: 150px;
     width: 200vh;
     border: solid;
-    background: white;
+    background: linear-gradient(violet, white);
     border-radius: 30px;
     color: black;
     flex-direction: column;
     display: flex;
+    font-family: 'Edu TAS Beginner', cursive;
 }
 
 .text-main{
     height: 30px;
     width: 190px;
     border: solid;
-    background: linear-gradient( aqua, #fff);
+    background: white;
     border-radius: 30px;
     padding: 20px;
 }
@@ -70,28 +71,63 @@ height: 100px;
 .story{
     flex-direction: column;
     border: solid;
-    background: linear-gradient( #fff, aqua);
+    background: linear-gradient( hsl(251, 46%, 48%), white);
     border-radius: 30px;
-    color: black;
+    color: white;
     display: flex;
     width: 1000px;
     height: 800px;
+    padding: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
 }
 
 .linear{
-    padding-left: 20px;
+    flex-direction: row;
+    border: solid;
+    background: linear-gradient( hsl(160, 46%, 48%), white);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    width: 350px;
+    height: 120px;
+    padding: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
 }
+
 
 .block{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     padding-right: 120px;
 }
-.cosmos img{
+.picture-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 500px; 
-    width: 600px; 
+    flex-direction: row;
+    justify-content: center;
+    
+    width: 100%;
+    gap: 30px;
+    
 }
+
+.picture-container img{
+    border-radius: 20px;
+    align-items: center;
+    width: 400px;
+    height: 300px;
+}
+
+.type{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.trash{
+    padding: 40px;
+}
+
+
