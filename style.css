@@ -76,9 +76,10 @@ height: 100px;
     color: white;
     display: flex;
     width: 1000px;
-    height: 800px;
+    height: 1300px;
     padding: 20px;
     font-family: 'Edu TAS Beginner', cursive;
+    gap: 20px;
 }
 
 .linear{
@@ -128,6 +129,21 @@ height: 100px;
 
 .trash{
     padding: 40px;
+}
+
+.danger{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1000px;
+    gap: 30px;
+}
+
+.picture-danger img{
+    border-radius: 20px;
+    align-items: center;
+    width: 100px;
+    height: 100px
 }
 
 
