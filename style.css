@@ -82,11 +82,11 @@ height: 100px;
 }
 
 .linear{
-    flex-direction: row;
+    flex-direction: column;
     border: solid;
     background: linear-gradient( hsl(160, 46%, 48%), white);
     border-radius: 30px;
-    color: white;
+    color: black;
     display: flex;
     width: 350px;
     height: 120px;
