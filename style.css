@@ -1,3 +1,10 @@
+body{
+    background-image: url(img/zoryane-nebo.jpg);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +18,12 @@
  width: 300px;
  height: 70px;
 }
+
+.to-menu img{
+    width: 100px;
+    height: 100px;
+}
+
 
 a{
     text-decoration: none;
@@ -80,12 +93,13 @@ height: 100px;
 .story{
     flex-direction: column;
     border: solid;
-    background: linear-gradient( hsl(251, 46%, 48%), white);
+    background:  rgb(157, 117, 251,0.8);
+    /* opacity: 80%; */
     border-radius: 30px;
     color: white;
     display: flex;
     width: 1000px;
-    height: 1400px;
+    height: 1500px;
     padding: 20px;
     font-family: 'Edu TAS Beginner', cursive;
     gap: 20px;
