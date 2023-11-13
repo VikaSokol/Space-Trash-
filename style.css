@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+.to-menu {
+ position: fixed;
+ top:800px;
+ left:50px;
+ border: solid;
+ width: 300px;
+ height: 70px;
+}
+
 a{
     text-decoration: none;
 }
@@ -76,7 +85,7 @@ height: 100px;
     color: white;
     display: flex;
     width: 1000px;
-    height: 1300px;
+    height: 1400px;
     padding: 20px;
     font-family: 'Edu TAS Beginner', cursive;
     gap: 20px;
@@ -159,6 +168,11 @@ height: 100px;
 }
 
 .danger{
+    display: flex;
+    justify-content: center;
+}
+
+.video {
     display: flex;
     justify-content: center;
 }
