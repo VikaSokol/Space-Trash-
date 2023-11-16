@@ -14,9 +14,6 @@ body{
  position: fixed;
  top:800px;
  left:50px;
- border: solid;
- width: 300px;
- height: 70px;
 }
 
 .to-menu img{
