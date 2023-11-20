@@ -38,7 +38,13 @@ height: 100px;
     gap: 50px;
     width: 100wh;
     justify-content: space-evenly;
+    
+    /* opacity: 0; Initial opacity (menu hidden) */
+    /* transition: opacity 0.5s ease; Transition for opacity change */
+
 }
+
+
 
 .main{
     display: flex;
@@ -135,6 +141,8 @@ height: 100px;
     align-items: center;
     width: 400px;
     height: 300px;
+    
+    
 }
 
 .type{
@@ -186,3 +194,12 @@ height: 100px;
     display: flex;
     justify-content: center;
 }
+
+.picture {
+    transition: transform 0.5s ease; /* Анімація для зміни transform */
+}
+
+.picture:hover {
+    transform: rotate(50deg); /* Обертання на 50 градусів при наведенні */
+}
+
