@@ -195,11 +195,17 @@ height: 100px;
     justify-content: center;
 }
 
-.picture {
-    transition: transform 0.5s ease; /* Анімація для зміни transform */
+.picture{
+      width: 200px;
+      height: 200px;
+      position: relative;
+      cursor: pointer;
+      transition: transform 0.5s ease; /* Анімація зміни положення */
 }
 
 .picture:hover {
-    transform: rotate(50deg); /* Обертання на 50 градусів при наведенні */
-}
+    transform: scaleX(-1); /* Зеркальне відображення картинки */
+  }
+
+
 

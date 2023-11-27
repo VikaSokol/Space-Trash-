@@ -51,5 +51,12 @@ function smoothScrool(clickedObj,target,speed){
 }
 
 
+// Отримуємо посилання на елемент картинки
+var picture = document.getElementById('myPicture');
 
+// Додаємо обробник події для натискання миші
+picture.addEventListener('click', function() {
+  // Додаємо або видаляємо клас "flipped" для зміни положення картинки
+  picture.classList.toggle('flipped');
+});
 
