@@ -203,9 +203,9 @@ height: 100px;
       transition: transform 0.5s ease; /* Анімація зміни положення */
 }
 
-.picture:hover {
+.picture:active {
     transform: scaleX(-1); /* Зеркальне відображення картинки */
   }
 
-
+  
 
