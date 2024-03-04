@@ -211,13 +211,13 @@ height: 100px;
   @media screen and (max-width:360px) {
     .header{
         background: linear-gradient( aqua, #fff);
-        height: 150px;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 50px;
-        width: 300px;
-        justify-content: space-evenly;
+        height: 350px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        gap: 5px;
+        width: 360px;
+        justify-content: center;
         } 
 }
 
