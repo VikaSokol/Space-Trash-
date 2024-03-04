@@ -208,19 +208,16 @@ height: 100px;
   }
 
   /*Адаптація сайту*/
-  @media screen and (max-width:1200px) {
-    
-  }
-  @media screen and (max-width:998px) {
-    
-  }
-  @media screen and (max-width:768px) {
-    
-  }
-  @media screen and (max-width:576px) {
-    
-  }
-  @media screen and (max-width:px) {
-    
-  }
-
+  @media screen and (max-width:360px) {
+    .header{
+        background: linear-gradient( aqua, #fff);
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        width: 1200px;
+        justify-content: space-evenly;
+        } 
+}
+  
