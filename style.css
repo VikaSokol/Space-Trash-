@@ -221,4 +221,36 @@ height: 100px;
         } 
 }
 
-  
+.name-1 {
+    padding: 0px;
+    height: 260px;
+    width: 360px;
+    border: solid;
+    background: linear-gradient(violet, white);
+    border-radius: 0px;
+    color: black;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Edu TAS Beginner', cursive;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-main {
+    height: 20px;
+    width: 170px;
+    border: solid;
+    background: white;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 60px;
+}
