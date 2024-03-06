@@ -298,4 +298,11 @@ height: 100px;
     padding: 20px;
     font-family: 'Edu TAS Beginner', cursive;
 }
+#p0{
+    padding: 10;
+    margin: 10px;
+}
+.trash {
+    padding: 30px;
+}
   }
