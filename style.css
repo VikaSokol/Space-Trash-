@@ -222,7 +222,7 @@ height: 100px;
   }
 
   /*Адаптація сайту*/
-  @media screen and (max-width:360px) {
+  @media screen and (max-width:420px) {
     .header{
         background: linear-gradient( aqua, #fff);
         height: 350px;
@@ -238,7 +238,7 @@ height: 100px;
 .name-1 {
     padding: 0px;
     height: 230px;
-    width: 360px;
+    width: 90%;
     border: solid;
     background: linear-gradient(violet, white);
     border-radius: 0px;
@@ -247,6 +247,7 @@ height: 100px;
     display: flex;
     font-family: 'Edu TAS Beginner', cursive;
     flex-wrap: nowrap;
+    
 }
 
 .text-main {
@@ -269,7 +270,7 @@ height: 100px;
 
 .name{
     height: 240px;
-    width: 365px;
+    width: 95%;
 }
 .story {
     flex-direction: column;
@@ -336,7 +337,7 @@ height: 100px;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 340px;
+    width: 95%;
     height: 150px;
 }
 .danger-text {
@@ -357,7 +358,7 @@ height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 300px;
+    width:90%;
     height: 300px;
     gap: 15px;
 }
@@ -388,4 +389,11 @@ height: 100px;
     justify-content: center;
     align-items: center;
   }
+  .block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: flex-start;
+    align-items: center;
+}
   }
