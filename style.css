@@ -107,6 +107,20 @@ height: 100px;
     font-family: 'Edu TAS Beginner', cursive;
     gap: 20px;
 }
+.story0{
+    flex-direction: column;
+    border: solid;
+    background:  rgb(157, 117, 251,0.8);
+    /* opacity: 80%; */
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    width: 1000px;
+    height: 1500px;
+    padding: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+    gap: 20px;
+}
 
 .linear{
     flex-direction: column;
@@ -267,13 +281,23 @@ height: 100px;
     padding: 20px;
     font-family: 'Edu TAS Beginner', cursive;
 }
+.story0 {
+    flex-direction: column;
+    background: rgb(157, 117, 251, 0.8);
+    color: white;
+    display: flex;
+    width: 345px;
+    height: 2400px;
+    padding: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
 .type {
     flex-direction: column;
     display: flex;
     gap: 20px;
     justify-content: space-around;
     padding: 10px;
-    height: 350px;
+    height: 370px;
 }
 #p1{
     width: 300px;
@@ -285,18 +309,7 @@ height: 100px;
 .type1{
     height: 400px;
 }
-.linear {
-    flex-direction: column;
-    border: solid;
-    background: linear-gradient(rgb(206, 255, 71), white);
-    border-radius: 30px;
-    color: black;
-    display: flex;
-    width: 280px;
-    height: 130px;
-    padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
-}
+
 #p0{
     padding: 10;
     margin: 10px;
@@ -361,4 +374,18 @@ height: 100px;
     height: 40px;
     margin-top: 10px;
 }
+.linear {
+    flex-direction: column;
+    border: solid;
+    background: linear-gradient(rgb(206, 255, 71), white);
+    border-radius: 30px;
+    color: black;
+    display: flex;
+    width: 270px;
+    height: 150px;
+    padding: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+    justify-content: center;
+    align-items: center;
+  }
   }
