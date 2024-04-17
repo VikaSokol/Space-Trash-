@@ -60,7 +60,7 @@ height: 100px;
 .name-1{
     padding: 10px;
     height: 150px;
-    width: 200vh;
+    width: 1050px;
     border: solid;
     background: linear-gradient(violet, white);
     border-radius: 30px;
@@ -219,6 +219,20 @@ height: 100px;
 
 .picture:active {
     transform: scaleX(-1); /* Зеркальне відображення картинки */
+  }
+
+  .gra {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .row {
+    display: flex;
+  }
+  .row0 {
+    display: flex;
+    justify-content: space-around;
   }
 
   /*Адаптація сайту*/
