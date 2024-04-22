@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat ;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Montserrat';
 }
 
 *{
@@ -248,6 +249,9 @@ height: 100px;
         justify-content: center;
         } 
 
+        .body {
+            font-family: 'Montserrat';
+        }
 .row {
     display: flex;
     flex-direction: row;
