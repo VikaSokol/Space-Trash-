@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat ;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Montserrat';
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 *{
@@ -11,6 +11,17 @@ body{
     padding: 0;
 }
 
+.hhh{
+    font-size: xx-large;
+}
+
+#astro{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    font-size:x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .to-menu {
  position: fixed;
  top:800px;
@@ -31,7 +42,7 @@ width: 100px;
 height: 100px;
 }
 .header{
-    background: linear-gradient( aqua, #fff);
+    background: linear-gradient(#965eb8, 10%, white);
     height: 150px;
     display: flex;
     flex-direction: row;
@@ -39,15 +50,12 @@ height: 100px;
     gap: 50px;
     width: 100wh;
     justify-content: space-evenly;
-    
-    /* opacity: 0; Initial opacity (menu hidden) */
-    /* transition: opacity 0.5s ease; Transition for opacity change */
-
 }
 
 
 
 .main{
+    padding-top: 10px;
     display: flex;
     flex-direction:column;
     flex-wrap:nowrap;
@@ -59,7 +67,7 @@ height: 100px;
 
 .name-1{
     padding: 10px;
-    height: 150px;
+    height: 200px;
     width: 1050px;
     border: solid;
     background: linear-gradient(violet, white);
@@ -67,12 +75,11 @@ height: 100px;
     color: black;
     flex-direction: column;
     display: flex;
-    font-family: 'Edu TAS Beginner', cursive;
 }
 
 .text-main{
     height: 30px;
-    width: 190px;
+    width: 210px;
     border: solid;
     background: white;
     border-radius: 30px;
@@ -104,7 +111,6 @@ height: 100px;
     width: 1000px;
     height: 1500px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
     gap: 20px;
 }
 .story0{
@@ -118,7 +124,6 @@ height: 100px;
     width: 1000px;
     height: 1500px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
     gap: 20px;
 }
 
@@ -132,7 +137,6 @@ height: 100px;
     width: 350px;
     height: 120px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
 }
 
 
@@ -235,6 +239,11 @@ height: 100px;
     justify-content: space-around;
     flex-wrap: wrap;
   }
+  #zag{
+    display: flex;
+    justify-content: flex-start;
+    font-size: xxx-large;
+  }
 
   /*Адаптація сайту*/
   @media screen and (max-width:420px) {
@@ -250,7 +259,7 @@ height: 100px;
         } 
 
         .body {
-            font-family: 'Montserrat';
+            font-family:Georgia, 'Times New Roman', Times, serif;
         }
 .row {
     display: flex;
@@ -268,7 +277,6 @@ height: 100px;
     width: 345px;
     height: 2000px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
 }
 .story0 {
     flex-direction: column;
@@ -278,7 +286,6 @@ height: 100px;
     width: 345px;
     height: 2400px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
 }
 .type {
     flex-direction: column;
@@ -374,7 +381,6 @@ height: 100px;
     width: 270px;
     height: 150px;
     padding: 20px;
-    font-family: 'Edu TAS Beginner', cursive;
     justify-content: center;
     align-items: center;
   }
@@ -400,7 +406,6 @@ height: 100px;
     color: black;
     flex-direction: row;
     display: flex;
-    font-family: 'Edu TAS Beginner', cursive;
     flex-wrap: wrap;
     align-items: baseline;
     justify-content: center;
@@ -423,4 +428,7 @@ height: 100px;
     left:5%;
     z-index: 2;
    }
+.main{
+    padding-top: 10px;
+}
   }
