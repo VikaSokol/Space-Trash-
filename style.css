@@ -13,6 +13,7 @@ body{
 
 .hhh{
     font-size: xx-large;
+    color: snow;
 }
 
 #astro{
@@ -130,7 +131,7 @@ height: 100px;
 .linear{
     flex-direction: column;
     border: solid;
-    background: linear-gradient( rgb(206, 255, 71), white);
+    background: linear-gradient(rgb(227, 150, 227), white);
     border-radius: 30px;
     color: black;
     display: flex;
@@ -172,7 +173,14 @@ height: 100px;
 }
 
 .trash{
-    padding: 40px;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: large;
+}
+.list{
+    color: rgb(247, 225, 237);
 }
 
 .danger-trash{
