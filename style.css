@@ -15,6 +15,10 @@ body{
     font-size: xx-large;
     color: snow;
 }
+.text-v{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5px;  
+}
 
 #astro{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -197,11 +201,16 @@ height: 100px;
     width: 100px;
     height: 100px;
 }
+.level{
+    color: rgb(86, 25, 112);
+    align-items: center;
+    display: flex;
+}
 
 .danger-text{
     flex-direction: row;
     border: solid;
-    background: linear-gradient( hsl(160, 46%, 48%), white);
+    background: radial-gradient(#965eb8, 10%, white);
     border-radius: 30px;
     color: white;
     display: flex;
@@ -217,6 +226,7 @@ height: 100px;
 }
 
 .video {
+    padding-top: 25px;
     display: flex;
     justify-content: center;
 }
