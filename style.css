@@ -263,6 +263,9 @@ height: 100px;
     font-size: xxx-large;
   }
 
+  #statellite-fragments{
+    height: 1700px;
+  }
   /*Адаптація сайту*/
   @media screen and (max-width:420px) {
     .header{
