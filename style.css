@@ -282,6 +282,9 @@ height: 100px;
         .body {
             font-family:Georgia, 'Times New Roman', Times, serif;
         }
+.para{
+    font-size: medium;
+}
 .row {
     display: flex;
     flex-direction: row;
@@ -290,6 +293,12 @@ height: 100px;
     height: 60px;
 }
 
+.row0 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 380px;
+}
 .story {
     flex-direction: column;
     background: rgb(157, 117, 251, 0.8);
@@ -305,7 +314,6 @@ height: 100px;
     color: white;
     display: flex;
     width: 345px;
-    height: 2400px;
     padding: 20px;
 }
 .type {
@@ -314,7 +322,17 @@ height: 100px;
     gap: 20px;
     justify-content: space-around;
     padding: 10px;
-    height: 370px;
+    height: 390px;
+}
+.main {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100vh;
+    align-items: center;
+    gap: 20px;
+    justify-content: flex-start;
 }
 #p1{
     width: 300px;
@@ -330,9 +348,13 @@ height: 100px;
 #p0{
     padding: 10;
     margin: 10px;
+    font-size: medium;
 }
 .trash {
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .picture-container img{
@@ -349,6 +371,11 @@ height: 100px;
     width: 100%;
     gap: 30px;
     align-items: center;
+}
+#mertvi{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
 }
 .danger {
     display: flex;
@@ -387,7 +414,7 @@ height: 100px;
     gap: 15px;
 }
 .text-question {
-    margin-bottom: 51px;
+    margin-bottom: 5px;
     margin-left: 20px;
     height: 80px;
     margin-top: 10px;
@@ -420,12 +447,10 @@ height: 100px;
 .name-1 {
     padding-left: 40px;
     height: 230px;
-    width: 460px;
-    border: solid;
+    width: 380px;
+    border-radius: 0%;
     background: linear-gradient(violet, white);
-    border-radius: 0px;
     color: black;
-    flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
@@ -443,13 +468,25 @@ height: 100px;
     align-items: center;
     font-size: small;
 }
+#statellite-fragments{
+    height: 2500px;
+}
 .to-menu {
     position: fixed;
     top: 75%;
     left:5%;
     z-index: 2;
    }
-.main{
-    padding-top: 10px;
+
+#astro{
+    font-size: x-large;
 }
+#zag {
+    display: flex;
+    justify-content: flex-start;
+    font-size: x-large;
   }
+.video{
+    height: 300px;
+}
+}
